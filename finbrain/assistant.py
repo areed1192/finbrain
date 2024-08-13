@@ -3,6 +3,7 @@
 from openai import OpenAI
 from openai.types.beta import Assistant
 
+
 class AssistantCreator:
 
     """A class to create and retrieve an assistant from the OpenAI platform."""
@@ -21,11 +22,11 @@ class AssistantCreator:
 
         ### Usage:
         ----
-        >>> from openai import OpenAI
-        >>> from finbrain import AssistantCreator
-        >>> client = OpenAI(api_key)
-        >>> assistant_creator = AssistantCreator(client=client)
-        >>> assistant = assistant_creator.assistant
+            >>> from openai import OpenAI
+            >>> from finbrain import AssistantCreator
+            >>> client = OpenAI(api_key)
+            >>> assistant_creator = AssistantCreator(client=client)
+            >>> assistant = assistant_creator.assistant
         """
 
         self._client = client

@@ -73,7 +73,7 @@ class FinBrainAssistant:
     def files(self) -> Files:
         """Returns the Files collection object."""
         return self._files
-    
+
     @property
     def prompt(self) -> Prompt:
         """Returns the Prompt object."""
@@ -83,7 +83,7 @@ class FinBrainAssistant:
     def assistant_id(self) -> str:
         """Returns the ID of the assistant."""
         return self.assistant.id
-    
+
     @property
     def thread_id(self) -> Thread:
         """Returns the ID of the thread."""
@@ -240,7 +240,7 @@ class FinBrainAssistant:
             assistant_creator = AssistantCreator(client=self.client)
 
         return assistant_creator
-    
+
     def _manage_thread_creation(self) -> Thread:
         """Manages the creation of the thread.
 
@@ -261,5 +261,8 @@ class FinBrainAssistant:
             )
         else:
             thread = Thread(client=self.client)
+
+        # Set the assistant for the thread.
+        thread.assistant = self.assistant
 
         return thread

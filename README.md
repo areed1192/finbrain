@@ -1,4 +1,4 @@
-# Risk Analyzer
+# Fianance Brain
 
 ## Table of Contents
 
@@ -60,4 +60,31 @@ you can use the library wherever you want.
 Here is a simple example of using the `finbrain` library to load a directory of files.
 
 ```python
+from configparser import ConfigParser
+
+from finbrain.client import FinBrainAssistant
+
+# Path to the configuration file.
+config = ConfigParser()
+config.read('configs/config.ini')
+api_key = config['openai_keys']['openai_secret_key']
+
+# Initialize the FinBrainAssistant object.
+assistant = FinBrainAssistant(
+    api_key=api_key,
+    save_state=True,
+    state_file="state.json"
+)
+
+# Grab the Save State attribute.
+print(assistant.save_state)
+
+# Grab the State File attribute.
+print(assistant.state_file)
+
+# Grab the State attribute.
+print(assistant.state)
+
+# Add some files to the assistant.
+assistant.files.add(file_path="sec_docs/13567242.html")
 ```

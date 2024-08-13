@@ -2,6 +2,7 @@ import json
 from jsonschema import validate
 from jsonschema import ValidationError
 
+
 class Validator:
 
     def validate_json_schema(self, json_string: str, schema: dict) -> dict:

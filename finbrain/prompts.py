@@ -1,11 +1,16 @@
 import pathlib
 from finbrain.utils import File
 
-class Prompt():
-    
-    def __init__(self) -> None:
 
-        self._templates_folder = pathlib.Path(__file__).parent.joinpath("templates")
+class Prompt():
+
+    """The `Prompt` class creates prompts for that will be used by the agent."""
+
+    def __init__(self) -> None:
+        """Initializes the `Prompt` object."""
+
+        parent_dir = pathlib.Path(__file__).parent
+        self._templates_folder = parent_dir.joinpath("templates")
 
     def create_prompt(self, file: File) -> str:
         """Creates a prompt for the document summary task.
@@ -30,7 +35,7 @@ class Prompt():
             prompt = prompt.format(document_name=file.name)
 
         return prompt
-    
+
     def write_prompt(self, file: File, output_path: str) -> None:
         """Writes the prompt to a file.
 
