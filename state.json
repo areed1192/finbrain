@@ -1,0 +1,24 @@
+{
+    "assistant_id": "asst_r6EdaWDOpWHt7l5oUW6PuVaL",
+    "files": [
+        {
+            "file_id": "",
+            "name": "13567242.html",
+            "is_uploaded": false,
+            "path": "sec_docs/13567242.html",
+            "size": 14679,
+            "creation_date": 1723262877.6515636,
+            "upload_date": null
+        },
+        {
+            "file_id": "file-2qRFcqlxo4t3CYU9FnaQ2BB4",
+            "name": "14564912.html",
+            "is_uploaded": true,
+            "path": "sec_docs/14564912.html",
+            "size": 14289,
+            "creation_date": 1723262877.4902556,
+            "upload_date": null
+        }
+    ],
+    "thread": "thread_y1j0kCgBSf0j9bNVhXi2cZR3"
+}

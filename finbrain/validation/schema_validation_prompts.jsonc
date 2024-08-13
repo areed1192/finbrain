@@ -1,0 +1,98 @@
+{
+  "summary_prompt": {
+    "name": "Document Summarization Enhanced",
+    "purpose": "Generate a detailed and accurate summary of a given document.",
+    "json_schema": {
+      "type": "object",
+      "properties": {
+        "company_name": { "type": "string" },
+        "document_title": { "type": "string" },
+        "filing_date": { "type": "string", "format": "date" },
+        "period_covered": { "type": "string" },
+        "cik": { "type": "string" },
+        "sic": { "type": "string" },
+        "fiscal_year_end": { "type": "string" },
+        "purpose": { "type": "string" },
+        "document_type": {
+          "type": "string",
+          "enum": ["Form 10-K", "Form 10-Q"]
+        },
+        "sections_summary": {
+          "type": "object",
+          "properties": {
+            "business": { "type": "string" },
+            "risk_factors": { "type": "string" },
+            "selected_financial_data": { "type": "string" },
+            "md&a": { "type": "string" },
+            "financial_statements": { "type": "string" },
+            "controls_and_procedures": { "type": "string" },
+            "legal_proceedings": { "type": "string" },
+            "other_sections": {
+              "type": "object",
+              "additionalProperties": { "type": "string" }
+            }
+          },
+          "required": [
+            "business",
+            "risk_factors",
+            "md&a",
+            "financial_statements"
+          ]
+        },
+        "key_financial_metrics": {
+          "type": "object",
+          "properties": {
+            "revenue": { "type": "string" },
+            "net_income": { "type": "string" },
+            "eps": { "type": "string" },
+            "total_assets": { "type": "string" },
+            "total_liabilities": { "type": "string" },
+            "cash_flows": {
+              "type": "object",
+              "properties": {
+                "operating_activities": { "type": "string" },
+                "investing_activities": { "type": "string" },
+                "financing_activities": { "type": "string" }
+              },
+              "required": [
+                "operating_activities",
+                "investing_activities",
+                "financing_activities"
+              ]
+            }
+          },
+          "required": [
+            "revenue",
+            "net_income",
+            "eps",
+            "total_assets",
+            "total_liabilities",
+            "cash_flows"
+          ]
+        },
+        "management_outlook": { "type": "string" },
+        "risk_factors": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "legal_proceedings": { "type": "string" },
+        "subsequent_events": { "type": "string" }
+      },
+      "required": [
+        "company_name",
+        "document_title",
+        "filing_date",
+        "period_covered",
+        "cik",
+        "sic",
+        "fiscal_year_end",
+        "purpose",
+        "document_type",
+        "sections_summary",
+        "key_financial_metrics",
+        "management_outlook",
+        "risk_factors"
+      ]
+    }
+  }
+}

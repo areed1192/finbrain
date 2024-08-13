@@ -1,0 +1,739 @@
+{
+  "domains": [
+    {
+      "name": "Enterprise Risk Management (ERM)",
+      "description": "Enterprise Risk Management (ERM) involves identifying, assessing, and managing risks across an organization to ensure that they are within the company's risk appetite. It integrates risk management into the strategic planning and decision-making processes.",
+      "importance": "ERM is crucial as it helps organizations proactively manage risks, improve decision-making, and enhance overall performance. It ensures that potential risks are identified and mitigated before they can impact the organization.",
+      "relation_to_organization": "ERM relates to an organization by providing a comprehensive framework for managing risks across all departments and levels. It aligns risk management with the organization's goals and objectives, ensuring a unified approach to handling uncertainties.",
+      "document_types": [
+        {
+          "name": "Enterprise Risk Management Program Requirements",
+          "purpose": "To define the requirements of the Enterprise Risk Management program.",
+          "key_sections": [
+            "Enterprise risk governance plan",
+            "Risk committee charter",
+            "Policies",
+            "Standards",
+            "Procedures"
+          ],
+          "stakeholders": ["Risk Manager", "Executive Team"],
+          "frequency": "Updated as needed",
+          "compliance": "Aligned with ISO 31000 standards"
+        },
+        {
+          "name": "Risk Assessment Process Documentation",
+          "purpose": "To outline the organization's risk assessment process, risk register, and risk management lifecycle.",
+          "key_sections": [
+            "Risk assessment process",
+            "Risk register",
+            "Risk management lifecycle"
+          ],
+          "stakeholders": ["Risk Analyst", "Department Heads"],
+          "frequency": "Reviewed annually",
+          "compliance": "Follows COSO ERM framework"
+        },
+        {
+          "name": "Inventory of Applicable Risks and Controls",
+          "purpose": "To list and track applicable risks and controls within the risk management program.",
+          "key_sections": [
+            "Risk ID",
+            "Description",
+            "Likelihood",
+            "Impact",
+            "Mitigation Plan"
+          ],
+          "stakeholders": ["Risk Manager", "Department Heads"],
+          "frequency": "Updated regularly",
+          "compliance": "Aligned with ISO 31000 standards"
+        }
+      ]
+    },
+    {
+      "name": "Nth Party Management",
+      "description": "Nth Party Management refers to the oversight and management of risks associated with third parties, such as suppliers, vendors, and partners. It ensures that these external entities comply with the organization's risk management policies and standards.",
+      "importance": "Effective Nth Party Management is essential for minimizing risks that originate from external sources. It helps protect the organization from potential disruptions, financial losses, and reputational damage caused by third-party failures.",
+      "relation_to_organization": "Nth Party Management is related to the organization by ensuring that all external partners adhere to the same risk management standards as the organization itself. It involves continuous monitoring, assessment, and mitigation of risks posed by third parties.",
+      "document_types": [
+        {
+          "name": "Third Party Risk Management Program Documentation",
+          "purpose": "To define the organization's third-party risk management program and assessment requirements.",
+          "key_sections": ["Policies", "Standards", "Procedures"],
+          "stakeholders": ["Procurement Officer", "Risk Manager"],
+          "frequency": "Updated as needed",
+          "compliance": "Complies with GDPR and other relevant regulations"
+        },
+        {
+          "name": "Third Party Inventory and Vendor Classification",
+          "purpose": "To maintain a structured inventory and classification of third-party vendors.",
+          "key_sections": ["Vendor Name", "Classification", "Risk Level"],
+          "stakeholders": ["Procurement Officer", "Risk Manager"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with GDPR and other relevant regulations"
+        },
+        {
+          "name": "Contract Clauses in Fourth Party Agreements",
+          "purpose": "To outline the organization's process for addressing contract clauses within fourth party agreements.",
+          "key_sections": [
+            "Standard contract provisions",
+            "Data protection requirements"
+          ],
+          "stakeholders": ["Legal Team", "Risk Manager"],
+          "frequency": "Reviewed during contract renewals",
+          "compliance": "Aligned with ISO 31000 standards"
+        }
+      ]
+    },
+    {
+      "name": "Information Assurance",
+      "description": "Information Assurance involves measures that protect and defend information and information systems by ensuring their availability, integrity, authentication, confidentiality, and non-repudiation.",
+      "importance": "Information Assurance is critical for protecting sensitive data and maintaining the trust of customers, partners, and stakeholders. It helps prevent data breaches and ensures compliance with regulatory requirements.",
+      "relation_to_organization": "Information Assurance relates to the organization by ensuring that all data and information systems are secure and resilient against threats. It supports the overall security posture of the organization.",
+      "document_types": [
+        {
+          "name": "Information Security Standards",
+          "purpose": "To outline the organization's information security standards.",
+          "key_sections": ["Security controls", "Compliance requirements"],
+          "stakeholders": ["Information Security Officer", "IT Department"],
+          "frequency": "Updated as needed",
+          "compliance": "Complies with ISO 27001 standards"
+        },
+        {
+          "name": "Information Security Policies",
+          "purpose": "To define the organization's information security policies.",
+          "key_sections": [
+            "Policy statement",
+            "Roles and responsibilities",
+            "Procedures"
+          ],
+          "stakeholders": ["Information Security Officer", "IT Department"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with ISO 27001 standards"
+        },
+        {
+          "name": "Information Security Organizational Document",
+          "purpose": "To document the organization's approved Information Security (IS) roles and responsibilities.",
+          "key_sections": ["IS roles", "Responsibilities"],
+          "stakeholders": ["Information Security Officer", "HR Department"],
+          "frequency": "Updated as needed",
+          "compliance": "Complies with ISO 27001 standards"
+        }
+      ]
+    },
+    {
+      "name": "Asset and Information Management",
+      "description": "Asset and Information Management involves the processes and policies for managing the organization's information assets, including data classification, data handling, and the tracking of physical media.",
+      "importance": "Proper management of information assets ensures their availability, integrity, and confidentiality. It helps prevent data loss, unauthorized access, and ensures compliance with legal and regulatory requirements.",
+      "relation_to_organization": "Asset and Information Management relates to the organization by providing a structured approach to managing information assets throughout their lifecycle. It supports data governance and security initiatives.",
+      "document_types": [
+        {
+          "name": "Information Asset Management Program",
+          "purpose": "To define the organization's information asset management program.",
+          "key_sections": ["Policies", "Procedures", "Standards"],
+          "stakeholders": ["Information Asset Manager", "IT Department"],
+          "frequency": "Updated as needed",
+          "compliance": "Complies with ISO 27001 standards"
+        },
+        {
+          "name": "Data Classification and Handling Procedures",
+          "purpose": "To outline the procedures for data classification and handling.",
+          "key_sections": ["Data classification levels", "Handling procedures"],
+          "stakeholders": ["Information Asset Manager", "IT Department"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with GDPR and other relevant regulations"
+        },
+        {
+          "name": "Physical Media Tracking",
+          "purpose": "To document the policies, procedures, and logs used for tracking inbound and outbound physical media.",
+          "key_sections": [
+            "Media type",
+            "Tracking logs",
+            "Handling procedures"
+          ],
+          "stakeholders": ["Information Asset Manager", "IT Department"],
+          "frequency": "Reviewed quarterly",
+          "compliance": "Complies with GDPR and other relevant regulations"
+        }
+      ]
+    },
+    {
+      "name": "Human Resources Security",
+      "description": "Human Resources Security involves policies and procedures to ensure the security of employees, contractors, and other personnel with access to sensitive information or systems.",
+      "importance": "Human Resources Security is essential for safeguarding the organization against insider threats and ensuring that personnel comply with security policies. It helps maintain a secure work environment and protects sensitive information.",
+      "relation_to_organization": "Human Resources Security relates to the organization by managing the security of its workforce. It includes background checks, security awareness training, and procedures for managing employee separations.",
+      "document_types": [
+        {
+          "name": "Human Resource Security and Background Investigation",
+          "purpose": "To document the current human resource security and background investigation policies and procedures.",
+          "key_sections": ["Background check procedures", "Security policies"],
+          "stakeholders": ["HR Department", "Security Officer"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with relevant employment laws and regulations"
+        },
+        {
+          "name": "Acknowledgement and Receipt of Company Policies",
+          "purpose": "To document the policies and procedures for acknowledgement and receipt of company policies.",
+          "key_sections": ["Policy statement", "Acknowledgement procedures"],
+          "stakeholders": ["HR Department", "Legal Team"],
+          "frequency": "Updated as needed",
+          "compliance": "Complies with ISO 27001 standards"
+        },
+        {
+          "name": "Security Awareness Training Program",
+          "purpose": "To outline the organization's security awareness training program.",
+          "key_sections": ["Training topics", "Constituent list"],
+          "stakeholders": ["HR Department", "Information Security Officer"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with ISO 27001 standards"
+        }
+      ]
+    },
+    {
+      "name": "Physical and Environmental Security",
+      "description": "Physical and Environmental Security involves measures to protect the organization's physical assets and facilities from unauthorized access, damage, and environmental threats.",
+      "importance": "Physical and Environmental Security is crucial for protecting the organization's physical assets, including hardware, facilities, and personnel. It helps prevent theft, damage, and ensures the continuity of operations.",
+      "relation_to_organization": "Physical and Environmental Security relates to the organization by providing a framework for securing physical assets and facilities. It includes access controls, environmental monitoring, and emergency response plans.",
+      "document_types": [
+        {
+          "name": "Environmental Controls",
+          "purpose": "To document the organization's policies, standards, or guidelines for environmental controls.",
+          "key_sections": ["Control measures", "Monitoring procedures"],
+          "stakeholders": ["Facilities Manager", "IT Department"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with relevant environmental regulations"
+        },
+        {
+          "name": "Physical Access to Data or Systems",
+          "purpose": "To outline the policies, standards, or guidelines for physical access to data or systems.",
+          "key_sections": ["Access control policies", "Monitoring procedures"],
+          "stakeholders": ["Facilities Manager", "IT Department"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with ISO 27001 standards"
+        },
+        {
+          "name": "Physical Security and Risk Management Programs",
+          "purpose": "To document the secure workspace physical security and risk management programs.",
+          "key_sections": ["Security measures", "Risk management procedures"],
+          "stakeholders": ["Facilities Manager", "Security Officer"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with ISO 27001 standards"
+        }
+      ]
+    },
+    {
+      "name": "IT Operations Management",
+      "description": "IT Operations Management involves managing the day-to-day operations of the organization's IT infrastructure, ensuring the availability, performance, and security of IT services.",
+      "importance": "IT Operations Management is critical for maintaining the continuity and efficiency of IT services. It ensures that IT systems are reliable, secure, and aligned with the organization's goals.",
+      "relation_to_organization": "IT Operations Management relates to the organization by overseeing the IT infrastructure and services that support business operations. It includes change management, incident management, and system monitoring.",
+      "document_types": [
+        {
+          "name": "Change Management Policies and Procedures",
+          "purpose": "To document the policies and procedures related to change management.",
+          "key_sections": ["Change management process", "Log ticketing system"],
+          "stakeholders": ["IT Operations Manager", "Change Management Team"],
+          "frequency": "Reviewed quarterly",
+          "compliance": "Complies with ITIL framework"
+        },
+        {
+          "name": "Security Patch Process",
+          "purpose": "To outline the security patch process, including the name of the tool used for patch management.",
+          "key_sections": [
+            "Patch management tool",
+            "Patch deployment procedures"
+          ],
+          "stakeholders": ["IT Operations Manager", "Security Officer"],
+          "frequency": "Updated as needed",
+          "compliance": "Complies with ISO 27001 standards"
+        },
+        {
+          "name": "IT Operational Procedures",
+          "purpose": "To document the organization's IT operational procedures.",
+          "key_sections": ["Operational processes", "Procedures"],
+          "stakeholders": ["IT Operations Manager", "IT Department"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with ITIL framework"
+        }
+      ]
+    },
+    {
+      "name": "Access Control",
+      "description": "Access Control involves policies and procedures to regulate who can access the organization's information systems and data. It ensures that only authorized individuals can access sensitive information.",
+      "importance": "Access Control is essential for protecting sensitive data and preventing unauthorized access. It helps ensure data integrity and confidentiality, reducing the risk of data breaches.",
+      "relation_to_organization": "Access Control relates to the organization by providing a framework for managing user access to information systems. It includes policies for user authentication, authorization, and access monitoring.",
+      "document_types": [
+        {
+          "name": "Access Control Policies and Procedures",
+          "purpose": "To document the policies and procedures for access control.",
+          "key_sections": ["Access control policies", "Procedures"],
+          "stakeholders": ["IT Security Officer", "IT Department"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with ISO 27001 standards"
+        },
+        {
+          "name": "Corporate Password Policies and Procedures",
+          "purpose": "To define the corporate password policies and procedures.",
+          "key_sections": ["Password requirements", "Management procedures"],
+          "stakeholders": ["IT Security Officer", "IT Department"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with ISO 27001 standards"
+        },
+        {
+          "name": "Inactive Accounts Management",
+          "purpose": "To outline the process for reviewing, revoking, or disabling access to inactive accounts.",
+          "key_sections": [
+            "Review process",
+            "Revocation procedures",
+            "Sample user access report"
+          ],
+          "stakeholders": ["IT Security Officer", "IT Department"],
+          "frequency": "Reviewed quarterly",
+          "compliance": "Complies with ISO 27001 standards"
+        }
+      ]
+    },
+    {
+      "name": "Application Management",
+      "description": "Application Management involves overseeing the lifecycle of the organization's applications, ensuring they are developed, maintained, and operated securely and efficiently.",
+      "importance": "Application Management is critical for ensuring that the organization's applications are secure, reliable, and meet business requirements. It helps prevent security vulnerabilities and ensures compliance with regulatory standards.",
+      "relation_to_organization": "Application Management relates to the organization by managing the development, deployment, and maintenance of applications. It includes application security, quality assurance, and change management.",
+      "document_types": [
+        {
+          "name": "Architecture and Application Security Risk Governance",
+          "purpose": "To document the organization's architecture governance program and application security risk governance program.",
+          "key_sections": ["Governance framework", "Security risk management"],
+          "stakeholders": ["Application Manager", "IT Security Officer"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with ISO 27001 standards"
+        },
+        {
+          "name": "SDLC Controls",
+          "purpose": "To define the policies, standards, and procedures related to Software Development Life Cycle (SDLC) controls.",
+          "key_sections": ["SDLC policies", "Standards", "Procedures"],
+          "stakeholders": ["Application Manager", "Development Team"],
+          "frequency": "Updated as needed",
+          "compliance": "Complies with ISO 27001 standards"
+        },
+        {
+          "name": "Application Security Testing Requirements",
+          "purpose": "To outline the organization's application security testing requirements and processes.",
+          "key_sections": ["Testing criteria", "Security review process"],
+          "stakeholders": ["Application Manager", "Security Tester"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with OWASP standards"
+        }
+      ]
+    },
+    {
+      "name": "Cybersecurity Incident Management",
+      "description": "Cybersecurity Incident Management involves preparing for, detecting, analyzing, containing, eradicating, and recovering from cybersecurity incidents. It ensures that the organization can respond effectively to security breaches.",
+      "importance": "Cybersecurity Incident Management is essential for minimizing the impact of security incidents. It helps protect sensitive data, maintain business continuity, and comply with regulatory requirements.",
+      "relation_to_organization": "Cybersecurity Incident Management relates to the organization by providing a structured approach to handling security incidents. It includes incident response plans, containment strategies, and recovery procedures.",
+      "document_types": [
+        {
+          "name": "Incident Management Policies, Plans, and Procedures",
+          "purpose": "To document the organization's incident management policies, plans, and procedures.",
+          "key_sections": [
+            "Incident management policies",
+            "Response plans",
+            "Procedures"
+          ],
+          "stakeholders": ["Incident Response Team", "IT Security Officer"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with ISO 27001 standards"
+        },
+        {
+          "name": "Incident Handling Resources and Tools",
+          "purpose": "To detail the resources and tools available for information security/information technology incident handling.",
+          "key_sections": ["Incident handling tools", "Recommended practices"],
+          "stakeholders": ["Incident Response Team", "IT Security Officer"],
+          "frequency": "Updated as needed",
+          "compliance": "Complies with ISO 27001 standards"
+        },
+        {
+          "name": "Incident Identification and Common Attack Vectors",
+          "purpose": "To outline the process for identifying incidents and the common attack vectors related to those incidents.",
+          "key_sections": ["Identification process", "Common attack vectors"],
+          "stakeholders": ["Incident Response Team", "IT Security Officer"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with ISO 27001 standards"
+        }
+      ]
+    },
+    {
+      "name": "Operational Resilience",
+      "description": "Operational Resilience involves the ability of an organization to anticipate, prepare for, respond to, and adapt to incremental change and sudden disruptions to maintain business operations.",
+      "importance": "Operational Resilience is crucial for ensuring that an organization can continue to operate during and after disruptions. It helps minimize the impact of incidents and ensures the continuity of critical business functions.",
+      "relation_to_organization": "Operational Resilience relates to the organization by providing a framework for managing risks to business operations. It includes business continuity planning, disaster recovery, and crisis management.",
+      "document_types": [
+        {
+          "name": "Business Resilience Policy",
+          "purpose": "To document the organization's business resilience policy and roles and responsibilities.",
+          "key_sections": ["Policy statement", "Roles and responsibilities"],
+          "stakeholders": ["Business Continuity Manager", "Executive Team"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with ISO 22301 standards"
+        },
+        {
+          "name": "Enterprise and Location Level Risk Assessments",
+          "purpose": "To document the results of the latest enterprise and location level risk assessments.",
+          "key_sections": ["Risk assessment results", "Mitigation plans"],
+          "stakeholders": ["Risk Assessment Team", "Executive Leadership"],
+          "frequency": "Conducted annually",
+          "compliance": "Complies with ISO 31000 standards"
+        },
+        {
+          "name": "Crisis Management and Business Continuity Plans",
+          "purpose": "To document the organization's crisis management and business continuity plans.",
+          "key_sections": [
+            "Crisis management plans",
+            "Business continuity procedures"
+          ],
+          "stakeholders": [
+            "Crisis Management Team",
+            "Business Continuity Manager"
+          ],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with ISO 22301 standards"
+        }
+      ]
+    },
+    {
+      "name": "Compliance Management",
+      "description": "Compliance Management involves ensuring that the organization adheres to relevant laws, regulations, policies, and standards. It includes managing compliance risks and ensuring that business practices align with legal and regulatory requirements.",
+      "importance": "Compliance Management is essential for avoiding legal penalties, maintaining the organization's reputation, and ensuring that business practices are ethical and lawful.",
+      "relation_to_organization": "Compliance Management relates to the organization by providing a framework for managing compliance risks. It includes monitoring compliance, conducting audits, and implementing policies and procedures to ensure adherence to regulatory requirements.",
+      "document_types": [
+        {
+          "name": "Organizational Structures and Oversight Functions",
+          "purpose": "To document organizational structures and oversight functions, including policies, standards, and procedures for compliance.",
+          "key_sections": ["Organizational structure", "Oversight functions"],
+          "stakeholders": ["Compliance Officer", "Executive Team"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with relevant regulations"
+        },
+        {
+          "name": "Professional Ethics and Business Practices Program",
+          "purpose": "To document the professional ethics and business practices program.",
+          "key_sections": ["Ethics policies", "Business practices guidelines"],
+          "stakeholders": ["Compliance Officer", "HR Department"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with relevant regulations"
+        },
+        {
+          "name": "Compliance Program for Marketing and Selling Activities",
+          "purpose": "To document the compliance program for marketing and selling activities.",
+          "key_sections": [
+            "Marketing compliance policies",
+            "Selling activities guidelines"
+          ],
+          "stakeholders": ["Compliance Officer", "Marketing Team"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with relevant regulations"
+        }
+      ]
+    },
+    {
+      "name": "Endpoint Security",
+      "description": "Endpoint Security involves protecting the endpoints (devices such as laptops, desktops, and mobile devices) within an organization's network. It includes implementing security measures to prevent unauthorized access, malware, and other threats.",
+      "importance": "Endpoint Security is crucial for protecting sensitive data and preventing security breaches. It helps ensure that all devices accessing the organization's network are secure and compliant with security policies.",
+      "relation_to_organization": "Endpoint Security relates to the organization by ensuring that all endpoints are secure and protected against threats. It includes implementing security controls, monitoring endpoints, and responding to security incidents.",
+      "document_types": [
+        {
+          "name": "Endpoint Security Configuration Standards",
+          "purpose": "To document the policies and procedures for endpoint security configuration standards.",
+          "key_sections": ["Configuration standards", "Security controls"],
+          "stakeholders": ["IT Security Officer", "IT Department"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with ISO 27001 standards"
+        },
+        {
+          "name": "Use of Removable Devices",
+          "purpose": "To document the organization's process for restricting the use of removable devices.",
+          "key_sections": [
+            "Removable device policies",
+            "Monitoring procedures"
+          ],
+          "stakeholders": ["IT Security Officer", "IT Department"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with ISO 27001 standards"
+        },
+        {
+          "name": "End User Device Access Logging",
+          "purpose": "To document the policies and procedures for end user device log on activity logging.",
+          "key_sections": ["Logging procedures", "Sample activity log"],
+          "stakeholders": ["IT Security Officer", "IT Department"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with ISO 27001 standards"
+        }
+      ]
+    },
+    {
+      "name": "Network Security",
+      "description": "Network Security involves measures to protect the organization's network infrastructure from unauthorized access, misuse, malfunction, modification, destruction, or improper disclosure. It ensures the integrity, confidentiality, and availability of data transmitted across the network.",
+      "importance": "Network Security is essential for protecting the organization's network and data from cyber threats. It helps prevent data breaches, ensures data integrity, and maintains the availability of network services.",
+      "relation_to_organization": "Network Security relates to the organization by providing a framework for securing the network infrastructure. It includes implementing security controls, monitoring network traffic, and responding to security incidents.",
+      "document_types": [
+        {
+          "name": "Network Security Diagram and Policies",
+          "purpose": "To document the current network diagram and related security policies.",
+          "key_sections": ["Network diagram", "Security policies"],
+          "stakeholders": ["Network Security Officer", "IT Department"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with ISO 27001 standards"
+        },
+        {
+          "name": "Deployment of IDS/IPS Systems",
+          "purpose": "To document the policies and procedures for deploying Intrusion Detection Systems (IDS) and Intrusion Prevention Systems (IPS).",
+          "key_sections": ["Deployment procedures", "Monitoring policies"],
+          "stakeholders": ["Network Security Officer", "IT Department"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with ISO 27001 standards"
+        },
+        {
+          "name": "Firewalls, Routers, and Devices Deployment",
+          "purpose": "To document the deployment of firewalls, routers, or devices to protect the organization from outside entities.",
+          "key_sections": ["Deployment procedures", "Network diagram"],
+          "stakeholders": ["Network Security Officer", "IT Department"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with ISO 27001 standards"
+        }
+      ]
+    },
+    {
+      "name": "Environ, Social, Gov (ESG)",
+      "description": "Environmental, Social, and Governance (ESG) refers to the three central factors in measuring the sustainability and societal impact of an organization. ESG criteria help evaluate how an organization manages risks and opportunities related to environmental, social, and governance issues.",
+      "importance": "ESG is important for ensuring that the organization operates in a sustainable and socially responsible manner. It helps attract investors, improves risk management, and enhances the organization's reputation.",
+      "relation_to_organization": "ESG relates to the organization by providing a framework for managing environmental, social, and governance risks and opportunities. It includes developing policies and programs that promote sustainability, social responsibility, and good governance practices.",
+      "document_types": [
+        {
+          "name": "Environmental Policy and Objectives",
+          "purpose": "To document the organization's environmental policy and objectives.",
+          "key_sections": ["Policy statement", "Objectives"],
+          "stakeholders": ["ESG Officer", "Executive Team"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with relevant environmental regulations"
+        },
+        {
+          "name": "Social Policy and Objectives",
+          "purpose": "To document the organization's social policy and objectives.",
+          "key_sections": ["Policy statement", "Objectives"],
+          "stakeholders": ["ESG Officer", "Executive Team"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with relevant social regulations"
+        },
+        {
+          "name": "Governance Program",
+          "purpose": "To document how the organization is led, managed, and incentivizes stakeholder expectations.",
+          "key_sections": ["Governance structure", "Stakeholder engagement"],
+          "stakeholders": ["ESG Officer", "Executive Team"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with relevant governance regulations"
+        }
+      ]
+    },
+    {
+      "name": "Privacy Management",
+      "description": "Privacy Management involves the policies, procedures, and practices for protecting personal data and ensuring compliance with privacy laws and regulations. It includes managing data privacy risks and ensuring that personal data is handled responsibly.",
+      "importance": "Privacy Management is essential for protecting individuals' personal data and ensuring compliance with privacy laws. It helps prevent data breaches, protects the organization's reputation, and ensures that personal data is handled responsibly.",
+      "relation_to_organization": "Privacy Management relates to the organization by providing a framework for managing data privacy risks. It includes developing policies and procedures for data protection, conducting privacy impact assessments, and ensuring compliance with privacy regulations.",
+      "document_types": [
+        {
+          "name": "Client-Scoped Data Inventory and Privacy Policies",
+          "purpose": "To document the organization's client-scoped data inventory and privacy policies.",
+          "key_sections": ["Data inventory", "Privacy policies"],
+          "stakeholders": ["Privacy Officer", "IT Department"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with GDPR and other relevant regulations"
+        },
+        {
+          "name": "Data Privacy or Data Protection Program Structure",
+          "purpose": "To document the organizational structure and scope of the data privacy or data protection program.",
+          "key_sections": ["Program structure", "Policies", "Standards"],
+          "stakeholders": ["Privacy Officer", "Executive Team"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with GDPR and other relevant regulations"
+        },
+        {
+          "name": "Privacy Awareness Training Schedule",
+          "purpose": "To document the delivery and schedule of privacy awareness training.",
+          "key_sections": ["Training topics", "Schedule"],
+          "stakeholders": ["Privacy Officer", "HR Department"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with GDPR and other relevant regulations"
+        }
+      ]
+    },
+    {
+      "name": "Artificial Intelligence (AI)",
+      "description": "Artificial Intelligence (AI) involves the development and use of algorithms and systems that can perform tasks that typically require human intelligence. It includes areas such as machine learning, natural language processing, and robotics.",
+      "importance": "AI is important for driving innovation, improving efficiency, and enabling new capabilities within the organization. It helps automate processes, analyze large datasets, and support decision-making.",
+      "relation_to_organization": "AI relates to the organization by providing tools and technologies that enhance business operations. It includes developing AI strategies, managing AI risks, and ensuring that AI systems are used ethically and responsibly.",
+      "document_types": [
+        {
+          "name": "AI Risk Management Policies and Practices",
+          "purpose": "To document the policies, processes, procedures, and practices for mapping, measuring, and managing AI risks.",
+          "key_sections": [
+            "Risk management policies",
+            "Procedures",
+            "Practices"
+          ],
+          "stakeholders": ["AI Risk Manager", "Executive Team"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with relevant AI regulations"
+        },
+        {
+          "name": "AI Risk Management Accountability Structure",
+          "purpose": "To provide evidence of an accountability structure for roles and responsibilities in AI risk management.",
+          "key_sections": [
+            "Roles and responsibilities",
+            "Accountability structure"
+          ],
+          "stakeholders": ["AI Risk Manager", "Executive Team"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with relevant AI regulations"
+        },
+        {
+          "name": "DEI Priorities in AI Risk Management",
+          "purpose": "To document DEI priorities and accessible workforce processes for managing AI risks through the lifecycle.",
+          "key_sections": ["DEI priorities", "Workforce processes"],
+          "stakeholders": ["AI Risk Manager", "HR Department"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with relevant AI regulations"
+        }
+      ]
+    },
+    {
+      "name": "Supply Chain Risk Management",
+      "description": "Supply Chain Risk Management involves identifying, assessing, and mitigating risks associated with the supply chain. It ensures the reliability and resilience of the supply chain and minimizes disruptions.",
+      "importance": "Supply Chain Risk Management is critical for ensuring that the organization can continue to operate despite disruptions in the supply chain. It helps maintain the flow of goods and services, reduces costs, and protects the organization's reputation.",
+      "relation_to_organization": "Supply Chain Risk Management relates to the organization by ensuring that all supply chain activities are resilient and reliable. It includes developing policies and procedures for managing supply chain risks, conducting risk assessments, and monitoring the supply chain.",
+      "document_types": [
+        {
+          "name": "Access Control and Account Management Practices",
+          "purpose": "To document the policies, procedures, or standards for access control and account management practices.",
+          "key_sections": [
+            "Access control policies",
+            "Account management procedures"
+          ],
+          "stakeholders": ["Supply Chain Manager", "IT Department"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with ISO 28000 standards"
+        },
+        {
+          "name": "Audit Mechanisms for Supply Chain Events",
+          "purpose": "To document the policies, procedures, or standards for using appropriate audit mechanisms to monitor supply chain-relevant events.",
+          "key_sections": ["Audit policies", "Monitoring procedures"],
+          "stakeholders": ["Supply Chain Manager", "Audit Team"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with ISO 28000 standards"
+        },
+        {
+          "name": "Assessment, Authorization, and Monitoring Practices",
+          "purpose": "To document the policies, procedures, or standards for assessment, authorization, and monitoring practices.",
+          "key_sections": [
+            "Assessment policies",
+            "Authorization procedures",
+            "Monitoring practices"
+          ],
+          "stakeholders": ["Supply Chain Manager", "IT Department"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with ISO 28000 standards"
+        }
+      ]
+    },
+    {
+      "name": "Threat Management",
+      "description": "Threat Management involves identifying, assessing, and mitigating threats to the organization. It includes implementing security measures to protect against cyber threats, physical threats, and other types of risks.",
+      "importance": "Threat Management is essential for protecting the organization from various types of threats. It helps ensure the safety of personnel, the security of information, and the continuity of operations.",
+      "relation_to_organization": "Threat Management relates to the organization by providing a framework for managing threats. It includes developing policies and procedures for threat identification, implementing security measures, and responding to incidents.",
+      "document_types": [
+        {
+          "name": "Anti-Malware Controls",
+          "purpose": "To document the policies, procedures, or standards for the deployment of controls for anti-malware.",
+          "key_sections": ["Control measures", "Settings and definitions"],
+          "stakeholders": ["IT Security Officer", "IT Department"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with ISO 27001 standards"
+        },
+        {
+          "name": "Virus Protection Software Deployment and Maintenance",
+          "purpose": "To document the procedures for deploying and maintaining virus protection software.",
+          "key_sections": ["Deployment procedures", "Maintenance processes"],
+          "stakeholders": ["IT Security Officer", "IT Department"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with ISO 27001 standards"
+        },
+        {
+          "name": "Vulnerability Scans on Internal System Components",
+          "purpose": "To document the process for internal and/or external vulnerability scans on internal system components and networks.",
+          "key_sections": ["Scanning procedures", "Latest scan results"],
+          "stakeholders": ["IT Security Officer", "IT Department"],
+          "frequency": "Reviewed quarterly",
+          "compliance": "Complies with ISO 27001 standards"
+        }
+      ]
+    },
+    {
+      "name": "Server Security",
+      "description": "Server Security involves protecting the organization's servers from unauthorized access, data breaches, and other threats. It includes implementing security measures to ensure the integrity, confidentiality, and availability of server data.",
+      "importance": "Server Security is critical for protecting sensitive data stored on servers. It helps prevent data breaches, ensures data integrity, and maintains the availability of server resources.",
+      "relation_to_organization": "Server Security relates to the organization by providing a framework for securing servers. It includes implementing security controls, monitoring server activity, and responding to security incidents.",
+      "document_types": [
+        {
+          "name": "System Configuration and Hardening Standards",
+          "purpose": "To document the current, approved system configuration and hardening standards for each type of operating system in use.",
+          "key_sections": ["Configuration standards", "Hardening procedures"],
+          "stakeholders": ["IT Security Officer", "IT Department"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with ISO 27001 standards"
+        },
+        {
+          "name": "Non-Windows Operating System Standards",
+          "purpose": "To document the current, approved system configuration and hardening standard for each type of non-Windows based operating system.",
+          "key_sections": ["Configuration standards", "Hardening procedures"],
+          "stakeholders": ["IT Security Officer", "IT Department"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with ISO 27001 standards"
+        },
+        {
+          "name": "Patch Management Policies and Procedures",
+          "purpose": "To document the policies and operational procedures specific to patch management.",
+          "key_sections": [
+            "Patch management policies",
+            "Operational procedures"
+          ],
+          "stakeholders": ["IT Security Officer", "IT Department"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with ISO 27001 standards"
+        }
+      ]
+    },
+    {
+      "name": "Cloud Services",
+      "description": "Cloud Services involve the use of cloud computing technologies to deliver services over the internet. It includes managing cloud infrastructure, ensuring data security, and complying with regulatory requirements.",
+      "importance": "Cloud Services are important for enabling scalable and flexible IT solutions. They help reduce costs, improve efficiency, and support business continuity.",
+      "relation_to_organization": "Cloud Services relate to the organization by providing IT resources and services through the cloud. It includes managing cloud security, ensuring compliance with regulations, and integrating cloud services with existing IT infrastructure.",
+      "document_types": [
+        {
+          "name": "Cloud Service Provider (CSP) Security Policies",
+          "purpose": "To document the security policies, controls, and delineation of security responsibilities related to the use of Cloud Service Provider (CSP) services.",
+          "key_sections": ["Security policies", "Controls", "Responsibilities"],
+          "stakeholders": ["Cloud Security Officer", "IT Department"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with relevant cloud security standards"
+        },
+        {
+          "name": "Cloud Hosting Governance Process",
+          "purpose": "To document the company's governance process for cloud hosting.",
+          "key_sections": [
+            "Governance process",
+            "Audit assurance responsibilities",
+            "Independent audit reports"
+          ],
+          "stakeholders": ["Cloud Security Officer", "IT Department"],
+          "frequency": "Reviewed annually",
+          "compliance": "Complies with relevant cloud security standards"
+        }
+      ]
+    }
+  ]
+}
