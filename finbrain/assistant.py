@@ -31,14 +31,18 @@ class AssistantCreator:
 
         self._client = client
         self._assistant_id = assistant_id
-        self.assistant = self.initalize_assistant()
+        self._assistant = self.initalize_assistant()
+
+    @property
+    def assistant(self) -> Assistant:
+        """Returns the assistant object."""
+        return self._assistant
 
     def initalize_assistant(self) -> Assistant:
         """Creates or retrieves an assistant from the OpenAI platform."""
 
         if self._assistant_id != "":
             return self._retrieve_assistant()
-
         return self._create_assistant()
 
     def _create_assistant(self) -> Assistant:

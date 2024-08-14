@@ -1,17 +1,16 @@
 """This script demonstrates how to use the OpenAI File Assistant to process multiple files and save the responses to a file."""
-import csv
+
 import json
 import pathlib
 import logging
 
 from openai import OpenAI
 
+from finbrain.utils import Files
+from finbrain.thread import Thread
+from finbrain.prompts import Prompt
 from finbrain.validator import Validator
 from finbrain.assistant import AssistantCreator
-
-from finbrain.prompts import Prompt
-from finbrain.thread import Thread
-from finbrain.utils import Files
 
 # Create a logging object
 logging.basicConfig(filename="agent_log.log", level=logging.INFO)
